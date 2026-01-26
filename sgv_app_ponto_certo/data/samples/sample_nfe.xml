@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enviNFe xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe>
+    <infNFe Id="NFe123" versao="4.00">
+      <ide><nNF>9876</nNF><dhEmi>2026-01-20T10:00:00-03:00</dhEmi></ide>
+      <emit><CNPJ>12345678000199</CNPJ><xNome>Fornecedor Exemplo LTDA</xNome></emit>
+      <det nItem="1"><prod><xProd>Arroz 5kg</xProd><qCom>10.00</qCom><vProd>150.00</vProd></prod></det>
+      <total><ICMSTot><vProd>150.00</vProd><vNF>150.00</vNF></ICMSTot></total>
+    </infNFe>
+  </NFe>
+</enviNFe>
