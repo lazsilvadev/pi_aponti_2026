@@ -142,6 +142,8 @@ alembic upgrade head
 ## Login e perfis
 
 - Caixa 1: acesso rápido no login (pode estar sem senha, conforme seed local).
+- Gerente 2: senha padrão: root
+- Estoque 3: senha padrão: estoque123
 - Gerente: se necessário, use os scripts em [scripts/](scripts/) para restaurar ou configurar senha (ex.: `restore_gerente.py`).
 
 ## Atalhos e fluxo do Caixa
@@ -257,3 +259,4 @@ python -m pytest
 ## Licença
 
 Projeto interno do Mercadinho Ponto Certo.
+
