@@ -1,3 +1,38 @@
+
+# Mercadinho Ponto Certo (SGV em Flet)
+
+Aplicação de SGV construída com Flet e SQLite para operação de caixa, relatórios, devoluções/trocas e integração básica com impressoras térmicas.
+
+## Pré-requisitos
+
+- Windows 10/11 ou Linux (Debian/Ubuntu base)
+- Python 3.12 ou 3.13
+- Drivers de impressora instalados (Windows) ou CUPS/ESC/POS (Linux)
+
+## Instalação
+
+### Windows
+
+1. Crie e ative um ambiente virtual:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+1. Instale as dependências principais:
+
+```powershell
+pip install -r requirements.txt
+```
+
+1. (Opcional) Recursos extras:
+
+```powershell
+# Excel e câmera
+pip install pandas openpyxl opencv-python
+```
+
 # 🟢 Início Rápido (Windows)
 
 Requisitos:
@@ -50,39 +85,6 @@ Observações:
 - Impressão e câmera exigem drivers/permissões; veja “Impressão” e “Dicas” no README.
 - Em Linux, use as instruções específicas do README (setup.ps1 é apenas para Windows/PowerShell).
 
-# Mercadinho Ponto Certo (SGV em Flet)
-
-Aplicação de SGV construída com Flet e SQLite para operação de caixa, relatórios, devoluções/trocas e integração básica com impressoras térmicas.
-
-## Pré-requisitos
-
-- Windows 10/11 ou Linux (Debian/Ubuntu base)
-- Python 3.12 ou 3.13
-- Drivers de impressora instalados (Windows) ou CUPS/ESC/POS (Linux)
-
-## Instalação
-
-### Windows
-
-1. Crie e ative um ambiente virtual:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
-1. Instale as dependências principais:
-
-```powershell
-pip install -r requirements.txt
-```
-
-1. (Opcional) Recursos extras:
-
-```powershell
-# Excel e câmera
-pip install pandas openpyxl opencv-python
-```
 
 ### Linux (Debian/Ubuntu)
 
@@ -259,4 +261,5 @@ python -m pytest
 ## Licença
 
 Projeto interno do Mercadinho Ponto Certo.
+
 
