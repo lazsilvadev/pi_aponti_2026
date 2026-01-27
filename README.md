@@ -150,12 +150,12 @@ alembic upgrade head
 
 ## Atalhos e fluxo do Caixa
 
-- Finalizar venda: F12 ou Ctrl+Enter – exibe o cupom.
-- ESC (comportamento por perfil):
-  - Gerente: volta ao Painel do Gerente.
-  - Caixa: efetua saída da sessão.
-- Consultar preço (F6): mostra quantidade real de estoque com fallback para dados do Estoque.
-- Devolver & Trocar: reconhecimento de códigos de barras com normalização de zeros à esquerda e prefixos.
+- Finalizar venda: F12 – exibe o cupom.
+- ESC (comportamento por perfil): Gerente: volta ao Painel do Gerente.
+- Na conta do Caixa sessão de login aberta:
+ Consultar preço (F5): mostra quantidade real de estoque com fallback para dados do Estoque.
+ Trocar (F7): Realiza a troca do produto por outro produto.
+ Estornar (F6): Cancela uma venda já finalizada.
 
 ## Relatórios e exportação
 
@@ -261,5 +261,6 @@ python -m pytest
 ## Licença
 
 Projeto interno do Mercadinho Ponto Certo.
+
 
 
