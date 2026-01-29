@@ -1,6 +1,8 @@
 
 # Mercadinho Ponto Certo (SGV em Flet)
 
+Projeto Integrador desenvolvido no programa Bolsa Futuro Digital (Aponti), aplicado a um cenário real de mercadinho para gestão de vendas e estoque.
+
 Aplicação de SGV construída com Flet e SQLite para operação de caixa, relatórios, devoluções/trocas e integração básica com impressoras térmicas.
 
 ## Pré-requisitos
@@ -261,6 +263,7 @@ python -m pytest
 ## Licença
 
 Projeto interno do Mercadinho Ponto Certo.
+
 
 
 
