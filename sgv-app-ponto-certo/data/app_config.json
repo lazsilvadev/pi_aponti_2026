@@ -1,0 +1,13 @@
+{
+  "printer": {
+    "printer_name": "MPT-II",
+    "paper_size": "58mm"
+  },
+  "site_logo": "assets/Mercadinho_Ponto_Certo.png",
+  "site_slogan": "",
+  "site_pdv_title": "",
+  "site_pdv_title_upper": false,
+  "icon_color": "",
+  "login_button_bg": "",
+  "login_button_text_color": ""
+}

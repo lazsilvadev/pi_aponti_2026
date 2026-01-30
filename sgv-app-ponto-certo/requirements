@@ -1,0 +1,53 @@
+alembic==1.17.2  # Migrações do banco de dados (gerencia versões e scripts)
+anyio==4.12.1  # Biblioteca de compatibilidade async (usada por libs async)
+appdirs==1.4.4  # Localização de pastas padrão do sistema (cache/config)
+argcomplete==3.6.3  # Autocompletar para CLIs (shell tab-completion)
+babel==2.17.0  # Internacionalização e formatação de datas/locale
+bcrypt==5.0.0  # Hash seguro de senhas (armazenamento/verificação)
+certifi==2026.1.4  # Bundle de certificados CA para HTTPS confiável
+cffi==2.0.0  # Bindings C (dependência para libs nativas como cryptography)
+charset-normalizer==3.4.4  # Normalização/detecção de encoding (HTTP libs)
+colorama==0.4.6  # Cores no terminal (especialmente Windows)
+crcmod==1.7  # Cálculo de CRC (comunicação serial/protocolos fiscais/TEF)
+cryptography==46.0.3  # Primitivas criptográficas (TLS, cifragem, assinaturas)
+et_xmlfile==2.0.0  # Escrita eficiente de XML (suporte ao openpyxl)
+flet==0.28.3  # Framework UI usado pela aplicação (views, controles)
+flet-desktop==0.28.3  # Runtime/integração desktop para Flet
+fpdf==1.7.2  # Geração simples de PDFs (recibos/etiquetas)
+greenlet==3.3.0  # Micro-threads (usado por runtimes/algumas libs DB)
+h11==0.16.0  # HTTP/1.1 low-level (pilha HTTP do httpx/httpcore)
+httpcore==1.0.9  # Núcleo HTTP assíncrono (usado pelo httpx)
+httpx==0.28.1  # Cliente HTTP async/sync para chamadas a APIs externas
+idna==3.11  # Suporte a nomes de host internacionalizados (IDNA)
+importlib_resources==6.5.2  # Acesso a recursos empacotados no pacote
+Mako==1.3.10  # Engine de templates (usada por Alembic para templates)
+MarkupSafe==3.0.3  # Segurança para templates (dependência de Mako/Jinja)
+numpy<2.3  # Operações numéricas (compatível com opencv-python)
+oauthlib==3.3.1  # Fluxos OAuth (integrações autenticadas, se houver)
+opencv-python==4.12.0.88  # Processamento de imagem (leitura/câmera/QR)
+openpyxl==3.1.5  # Leitura/escrita de arquivos Excel (.xlsx)
+pandas==2.3.3  # Manipulação e análise de dados (relatórios/exports)
+passlib==1.7.4  # Abstração de hashing de senhas (wrap de bcrypt, etc.)
+pillow==12.1.0  # Manipulação de imagens (abrir/redimensionar/salvar)
+pyarrow==22.0.0  # Serialização/armazenamento de tabelas (Parquet, desempenho)
+pycparser==2.23  # Parser C (dependência de cffi)
+pypng==0.20220715.0  # Leitura/escrita de PNGs (geração de imagens)
+pyserial==3.5  # Comunicação serial (COM/RS232 com dispositivos)
+python-barcode==0.16.1  # Geração de códigos de barras (etiquetas/recibos)
+python-dateutil==2.9.0.post0  # Parsing/manipulação flexível de datas
+python-dotenv==1.2.1  # Carregar variáveis de ambiente a partir de .env
+python-escpos==3.1  # Comunicação com impressoras térmicas ESC/POS
+pytz==2025.2  # Fuso horário (compatibilidade com datetime)
+pyusb==1.3.1  # Acesso a dispositivos USB (maquininhas/escâneres USB)
+pywin32==311  # APIs Windows (integrações específicas no Windows)
+PyYAML==6.0.3  # Leitura/Escrita YAML (configurações/fixtures)
+pyzbar==0.1.9  # Leitura de códigos de barras/QR a partir de imagens
+qrcode==7.4.2  # Geração de QR Codes (pix/recibos)
+repath==0.9.0  # Utilitários para manipulação de caminhos (exports)
+reportlab==4.4.5  # Geração avançada de PDFs (relatórios com layout)
+setuptools==80.9.0  # Empacotamento/instalação do projeto (infra)
+six==1.17.0  # Compatibilidade Python 2/3 (utilitários de compatibilidade)
+SQLAlchemy==2.0.44  # ORM e acesso ao banco de dados (models/queries)
+tkcalendar==1.6.1  # Widget de calendário (scripts/utilitários Tkinter)
+typing_extensions==4.15.0  # Tipos extras/backports para anotações
+tzdata==2025.3  # Base de fusos horários (zoneinfo/tzdata atualizada)
