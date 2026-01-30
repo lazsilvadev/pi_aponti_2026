@@ -150,15 +150,6 @@ alembic upgrade head
 - Estoque 3: senha padrão: estoque123
 - Gerente: se necessário, use os scripts em [scripts/](scripts/) para restaurar ou configurar senha (ex.: `restore_gerente.py`).
 
-## Atalhos e fluxo do Caixa
-
-- Finalizar venda: F12 – exibe o cupom.
-- ESC (comportamento por perfil): Gerente: volta ao Painel do Gerente.
-- Na conta do Caixa sessão de login aberta:
- Consultar preço (F5): mostra quantidade real de estoque com fallback para dados do Estoque.
- Trocar (F7): Realiza a troca do produto por outro produto.
- Estornar (F6): Cancela uma venda já finalizada.
-
 ## Relatórios e exportação
 
 - Relatórios de Produtos: lista unificada com base na tela de Estoque; exporta a mesma visão.
@@ -263,6 +254,7 @@ python -m pytest
 ## Licença
 
 Projeto interno do Mercadinho Ponto Certo.
+
 
 
 
